@@ -1,0 +1,29 @@
+# Escludi i file generati dal sistema operativo
+.DS_Store
+Thumbs.db
+
+# Escludi i file di Python
+*.pyc
+__pycache__/
+
+# Escludi i file di ambiente virtuale
+.env
+venv/
+*.venv/
+
+# Escludi file di configurazione
+*.log
+*.sqlite3
+
+# Escludi i file di modello salvati e checkpoint
+*.h5
+*.keras
+*.ckpt
+
+# Escludi eventuali dati sensibili
+config.json
+*.secret
+
+# Escludi i file generati dagli IDE
+.vscode/
+.idea/
